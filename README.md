@@ -1,1 +1,0 @@
-# Trans-Lithuania-Trail
