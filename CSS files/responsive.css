@@ -1,0 +1,151 @@
+/* Nuo 470px */
+
+@media screen and (min-width: 470px) {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+  .footer-about {
+    grid-column: span 2;
+  }
+}
+
+/* Nuo 578px */
+
+@media screen and (min-width: 578px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about__feedback__heading {
+    font-size: 2.5rem;
+  }
+  .destinations__info__block {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .team-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .team__info__block {
+    grid-column: span 1;
+  }
+  .contact-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr;
+    gap: 1rem;
+  }
+  .contact__info__icons {
+    display: flex;
+    align-items: center;
+  }
+  .info__icon {
+    padding-right: 0.5rem;
+  }
+}
+
+/* Nuo 768px */
+
+@media screen and (min-width: 768px) {
+  .header__menu__icon {
+    display: none;
+  }
+  .header-menu-nav {
+    display: flex;
+  }
+  .destinations__photo__block {
+    margin: 0 auto;
+  }
+  .about__feedback__heading {
+    font-size: 3rem;
+  }
+  .destinations__info__photo {
+    max-width: 768px;
+  }
+  #message {
+    grid-column: span 3;
+  }
+  .contact__info__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 0.7fr 0.7fr;
+    gap: 1rem;
+    justify-items: center;
+  }
+  .footer-about {
+    grid-column: span 1;
+  }
+}
+
+/* Nuo 960px */
+
+@media screen and (min-width: 960px) {
+  .team-info {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+      "photo1 photo2"
+      "info1 info2"
+      "photo3 photo4"
+      "info3 info4";
+  }
+  .photo1 {
+    grid-area: photo1;
+  }
+  .info1 {
+    grid-area: info1;
+  }
+  .photo2 {
+    grid-area: photo2;
+  }
+  .info2 {
+    grid-area: info2;
+  }
+  .photo3 {
+    grid-area: photo3;
+  }
+  .info3 {
+    grid-area: info3;
+  }
+  .photo4 {
+    grid-area: photo4;
+  }
+  .info4 {
+    grid-area: info4;
+  }
+  .team-photo-block,
+  .team__info__block {
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-text {
+    font-size: 2.3rem;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__images__container {
+    height: 600px;
+  }
+  .about__images__photo {
+    max-width: 950px;
+  }
+  .about__feedback__heading {
+    font-size: 4rem;
+  }
+  .about__feedback__text {
+    font-size: 1.2rem;
+  }
+}

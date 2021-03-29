@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5em;
+  color: var(--header-text-color);
+}
+
+.paragraph-text {
+  line-height: 1.8;
+  margin-bottom: 2em;
+  color: var(--paragraph-text-color);
+}
+
+.secondary-heading-text {
+  color: var(--header-text-color);
+}
+
+.destinations__info__block__text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--third-text-color);
+}

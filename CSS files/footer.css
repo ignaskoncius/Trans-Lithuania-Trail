@@ -1,0 +1,49 @@
+.footer {
+  background-color: var(--header-text-color);
+  padding: 2rem 0;
+}
+
+.footer__about__header,
+.footer__links__header,
+.footer__follow__header {
+  color: var(--main-text-color);
+}
+
+.footer__about__text {
+  line-height: 1.8;
+  color: var(--secondary-color);
+}
+
+.footer__links__nav {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__link {
+  color: var(--secondary-color);
+}
+
+.footer__follow__links {
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.footer__follow__icon {
+  color: var(--secondary-color);
+}
+
+.footer-hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer__copy__text {
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.footer__copy__link {
+  color: var(--main-text-color);
+}

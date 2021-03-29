@@ -1,0 +1,14 @@
+:root {
+  --main-text-color: rgb(255, 255, 255);
+  --secondary-color: #2cc9af;
+  --third-text-color: #2d8f7f;
+  --main-button-color: #2cc9afe7;
+  --button-hover-color: #2cc9afb6;
+  --menu-color: #44b0a069;
+  --header-text-color: #20665a;
+  --paragraph-text-color: #407c73;
+  --feedback-heading-color: #ff4a52;
+  --main-bg-color: #befff4b4;
+  --destinations-icon-color: rgb(204, 204, 27);
+  --blue-color: #784bd3;
+}

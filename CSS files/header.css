@@ -1,0 +1,89 @@
+.header-bg {
+  background-image: url("../Nuotraukos/What-is-the-TET-Main-Pic-02.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  margin-bottom: 3em;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  color: var(--main-text-color);
+}
+
+.header-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: var(--menu-color);
+}
+
+.header__menu__logo,
+.header__menu__logo__span {
+  color: var(--main-text-color);
+  font-family: fantasy;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+}
+
+.header__menu__logo__span {
+  color: var(--secondary-color);
+}
+
+.header__menu__icon {
+  font-size: 1.5rem;
+}
+
+.header-menu-nav {
+  display: none;
+}
+
+.header__nav__link {
+  color: var(--main-text-color);
+  display: flex;
+  padding: 1rem;
+}
+
+.header-main {
+  padding: 0 2em;
+  text-align: center;
+}
+
+.header__main__title {
+  font-size: 3.5rem;
+}
+
+.header__main__title__span {
+  color: var(--secondary-color);
+}
+
+.header__main__text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+
+.header__button {
+  padding: 1.3rem 4.5rem;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  width: 250px;
+  border: none;
+  color: var(--main-text-color);
+  background-color: var(--main-button-color);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.header__button:hover {
+  background-color: var(--button-hover-color);
+}

@@ -1,0 +1,49 @@
+.contact {
+  background-color: var(--main-bg-color);
+  padding: 2rem 0 2rem 0;
+}
+
+.contact-info-grid {
+  margin-bottom: 2em;
+}
+
+.contact__info__header {
+  margin-bottom: 0;
+  color: var(--feedback-heading-color);
+}
+
+.contact__info__icons {
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.info__icon {
+  color: var(--feedback-heading-color);
+}
+
+.contact__info__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contact__info__input {
+  color: var(--secondary-color);
+  padding: 0.5em;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.contact__button {
+  margin-top: 2em;
+  padding: 1rem 3rem;
+  background-color: var(--main-button-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--main-text-color);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.contact__button:hover {
+  background-color: var(--feedback-heading-color);
+}
